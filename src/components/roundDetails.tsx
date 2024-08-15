@@ -12,7 +12,7 @@ const RoundDetailsComponent: React.FC<PropsType> = ({
   fetchDataCounter,
 }) => {
   const { round, loading, error, fetchData } = useFetchRound(roundId);
-  const imgSrc = `/images/reload.png`;
+  const imgSrc = `/Rounds-information/images/reload.png`;
 
   useEffect(() => {
     if (fetchDataCounter) {

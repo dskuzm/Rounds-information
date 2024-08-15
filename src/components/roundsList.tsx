@@ -5,7 +5,7 @@ import { RoundsListProps } from "@/components/types";
 
 const RoundListComponent: React.FC = () => {
   const { roundsList, loading, error } = useFetchRoundList();
-  const imgSrc = `/images/reload.png`;
+  const imgSrc = `/Rounds-information/images/reload.png`;
   if (loading)
     return (
       <div className="warningMessage">

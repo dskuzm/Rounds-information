@@ -15,7 +15,7 @@ const RoundMatrixComponent: React.FC<PropsType> = ({ items, height }) => {
     <div className="gameField">
       {itemsList.map((item, index) => {
         const isGroupOfFour = item === "4";
-        const imgSrc = `/images/${item}.png`;
+        const imgSrc = `/Rounds-information/images/${item}.png`;
 
         const className = classNames("gameItem", {
           groupOfFour: isGroupOfFour,

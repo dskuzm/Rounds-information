@@ -9,7 +9,7 @@ type PropsType = {
 const RoundItemComponent: React.FC<PropsType> = ({ item }) => {
   const [selectedRoundId, setSelectedRoundId] = useState<string>("");
   const [roundCounter, setRoundCounter] = useState<number>(0);
-  const imgSrc = `/images/reload.png`;
+  const imgSrc = `/Rounds-information/images/reload.png`;
   const date = useMemo(() => new Date(item.dateTime), [item.dateTime]);
   const formattedDate = useMemo(
     () =>
