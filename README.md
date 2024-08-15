@@ -2,11 +2,11 @@
 
 Rounds information
 
-You can view a live demo of the project by visiting ...
+You can view a live demo of the project by visiting  [this link](https://dskuzm.github.io/Rounds-information/).
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server:`
 
 ```bash
 npm run dev
